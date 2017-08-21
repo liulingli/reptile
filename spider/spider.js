@@ -176,6 +176,7 @@ setTimeout(function(){
   console.log("长度",dataSource,dataSource.length)
   for(var i=0;i<dataSource.length;i++){
     console.log(dataSource[i])
+    createTxt(dataSource[i].province,dataSource[i].toString());
   }
 },100000);
  /*生成文件*/
