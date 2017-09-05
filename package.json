@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "spider": "node ./spider/spider.js"
+    "spider": "node ./spider/newSpider.js"
   },
   "dependencies": {
+    "async": "^2.5.0",
     "body-parser": "~1.17.1",
     "bufferhelper": "^0.2.1",
     "cheerio": "^1.0.0-rc.2",
